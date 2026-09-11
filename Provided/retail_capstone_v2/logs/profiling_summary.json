@@ -1,0 +1,41 @@
+{
+  "seed": 23,
+  "entities": {
+    "customers": {
+      "clean": 215000,
+      "bad": 29000,
+      "total": 244000
+    },
+    "products": {
+      "clean": 12000,
+      "bad": 3000,
+      "total": 15000
+    },
+    "orders": {
+      "clean": 175000,
+      "bad": 30000,
+      "total": 205000
+    },
+    "order_items": {
+      "clean": 680000,
+      "bad": 118000,
+      "total": 798000
+    },
+    "payments": {
+      "clean": 118000,
+      "bad": 20000,
+      "total": 138000
+    }
+  },
+  "grand_totals": {
+    "clean_sum": 1200000,
+    "bad_sum": 200000,
+    "merged_sum": 1400000
+  },
+  "orphan_placeholders": "__ORPHAN__",
+  "notes": [
+    "Clean + bad rows are concatenated and **shuffled** before write.",
+    "Faker localized to India (en_IN) for names, emails & cities.",
+    "Some bad rows include missing values, negative numbers, future dates, duplicate keys, orphan references and type mismatches."
+  ]
+}

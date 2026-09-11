@@ -1,0 +1,29 @@
+{
+  "version": "v2.1-shuffle-en_IN",
+  "faker_locale": "en_IN",
+  "shuffle": true,
+  "write_parquet": false,
+  "targets": {
+    "customers": {
+      "clean": 215000,
+      "bad": 29000
+    },
+    "products": {
+      "clean": 12000,
+      "bad": 3000
+    },
+    "orders": {
+      "clean": 175000,
+      "bad": 30000
+    },
+    "order_items": {
+      "clean": 680000,
+      "bad": 118000
+    },
+    "payments": {
+      "clean": 118000,
+      "bad": 20000
+    }
+  },
+  "output_dir": "C:\\Users\\USER\\Desktop\\test\\global_retail_e-commerce company_analytics\\new\\retail_capstone_v2"
+}
