@@ -78,7 +78,7 @@ Each source file deliberately blends valid rows with **six categories of realist
 ## ⭐ Star Schema
 
 <div align="center">
-<img src="assets/schema.png" alt="Star Schema Diagram" width="850">
+<img src="DA-Project-Team-7/Schema.png" alt="Star Schema Diagram" width="850">
 </div>
 
 | Table | Type | Notes |
@@ -253,9 +253,9 @@ priya.sharma@example.com   →   p***a@example.com
 An interactive **Streamlit-in-Snowflake** app — Snowpark pulls DW tables directly into pandas; filters update every KPI and chart in real time, no external BI tool required.
 
 <div align="center">
-<img src="assets/dashboard-overview.png" alt="Dashboard Overview" width="850">
+<img src="DA-Project-Team-7/assets/dashboard-overview.png" alt="Dashboard Overview" width="850">
 <br><br>
-<img src="assets/dashboard-insights.png" alt="Dashboard Insights" width="850">
+<img src="DA-Project-Team-7/assets/dashboard-insights.png" alt="Dashboard Insights" width="850">
 </div>
 
 All **5 required chart types** — line, bar, histogram, donut, and horizontal bar — are delivered twice: once as seaborn charts in the Snowpark notebook, and once as live, hoverable Altair charts in the dashboard.
@@ -271,7 +271,7 @@ ALTER TABLE DW.FACT_SALES CLUSTER BY (date_sk);
 Most analytical queries filter or group by date — clustering lets Snowflake's micro-partition pruning skip irrelevant blocks instead of scanning the full table.
 
 <div align="center">
-<img src="assets/query-profile.png" alt="Query Profile" width="750">
+<img src="DA-Project-Team-7/assets/query-profile.png" alt="Query Profile" width="750">
 </div>
 
 | Metric | Value |
