@@ -11,7 +11,7 @@ RAW CSVs → RAW schema (as-is, VARCHAR) → STAGING schema (cleaned + validated
 ```
 
 ## ⭐ Star Schema
-![Star Schema](DA-Project-Team-7/DA-Project-Team-7/Schema.png)
+![Star Schema](DA-Project-Team-7/schema.png)
 
 - **FACT_SALES** — grain: one row per order item
 - **DIM_CUSTOMER** — SCD Type 2 (tracks city/email/phone changes over time), email & phone masked
