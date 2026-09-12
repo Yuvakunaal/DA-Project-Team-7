@@ -78,7 +78,7 @@ Each source file deliberately blends valid rows with **six categories of realist
 ## ⭐ Star Schema
 
 <div align="center">
-<img src="DA-Project-Team-7/Schema.png" alt="Star Schema Diagram" width="850">
+<img src="DA-Project-Team-7/schema.png" alt="Star Schema Diagram" width="850">
 </div>
 
 | Table | Type | Notes |
