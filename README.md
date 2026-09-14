@@ -2,7 +2,7 @@
 
 # 🛒 Global Retail E-Commerce — Data Warehouse & Analytics
 
-**An end-to-end Data Engineering capstone: raw, deliberately messy OLTP extracts → a validated Star Schema data warehouse → live analytics — built entirely on Snowflake.**
+**An end-to-end Data Engineering project: raw, deliberately messy OLTP extracts → a validated Star Schema data warehouse → live analytics — built entirely on Snowflake.**
 
 [![Snowflake](https://img.shields.io/badge/Platform-Snowflake-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white)](https://www.snowflake.com/)
 [![SQL](https://img.shields.io/badge/Language-SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)](#)
@@ -78,7 +78,7 @@ Each source file deliberately blends valid rows with **six categories of realist
 ## ⭐ Star Schema
 
 <div align="center">
-<img src="DA-Project-Team-7/schema.png" alt="Star Schema Diagram" width="850">
+<img src="DA-Project-Team-7/assets/schema.png" alt="Star Schema Diagram" width="850">
 </div>
 
 | Table | Type | Notes |
@@ -316,11 +316,11 @@ DA-Project-Team-7/
 │   └── 09_validation_check.sql    # Ground-truth reconciliation
 │
 ├── PY-Code/
-│   ├── retail_capstone_analysis.ipynb   # Snowpark + pandas + seaborn
+│   ├── retail_project_analysis.ipynb   # Snowpark + pandas + seaborn
 │   └── streamlit_app.py                 # Live dashboard (Altair)
 │
 ├── assets/                        # Diagrams & screenshots (for this README)
-├── schema.png                     # Star schema diagram
+|     ├── schema.png                     # Star schema diagram
 └── README.md
 ```
 
@@ -340,7 +340,7 @@ Run the SQL scripts in `SF-CODE/` **in numeric order** inside Snowsight workshee
 8. **`08_incremental_load.sql`** — incremental load demo using a watermark table
 9. **`09_validation_check.sql`** — validates cleaned counts against ground truth
 
-Then open `PY-Code/retail_capstone_analysis.ipynb` as a **Snowflake Notebook**, or deploy `PY-Code/streamlit_app.py` as a **Streamlit-in-Snowflake** app — both pointed at `RETAIL_CAPSTONE.DW`.
+Then open `PY-Code/retail_project_analysis.ipynb` as a **Snowflake Notebook**, or deploy `PY-Code/streamlit_app.py` as a **Streamlit-in-Snowflake** app — both pointed at `RETAIL_project.DW`.
 
 > **Prerequisites:** a Snowflake account (trial works fine), `ACCOUNTADMIN` or equivalent role, and an `XSMALL` warehouse is sufficient for this data volume.
 
@@ -367,6 +367,6 @@ Then open `PY-Code/retail_capstone_analysis.ipynb` as a **Snowflake Notebook**, 
 
 <div align="center">
 
-*Built as a 3-day sprint-based Data Engineering capstone — every number in this README is pulled from validated SQL execution, not assumed.*
+*Built as a 3-day sprint-based Data Engineering project — every number in this README is pulled from validated SQL execution, not assumed.*
 
 </div>
